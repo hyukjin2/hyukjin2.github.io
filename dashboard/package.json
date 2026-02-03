@@ -1,0 +1,19 @@
+{
+  "name": "mat-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mat4js": "^1.4.3",
+    "next": "^14.2.5",
+    "plotly.js": "^2.32.0",
+    "plotly.js-dist-min": "^2.32.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^2.6.0"
+  }
+}

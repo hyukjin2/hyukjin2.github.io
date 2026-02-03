@@ -1,0 +1,35 @@
+export const NETWORK_LABELS = [
+  "Cont",
+  "Default",
+  "DorsAttn",
+  "Limbic",
+  "SalVentAttn",
+  "SomMot",
+  "Vis",
+];
+
+export const VECH_PAIRS = [
+  [1, 2],
+  [1, 3],
+  [1, 4],
+  [1, 5],
+  [1, 6],
+  [1, 7],
+  [2, 3],
+  [2, 4],
+  [2, 5],
+  [2, 6],
+  [2, 7],
+  [3, 4],
+  [3, 5],
+  [3, 6],
+  [3, 7],
+  [4, 5],
+  [4, 6],
+  [4, 7],
+  [5, 6],
+  [5, 7],
+  [6, 7],
+];
+
+export const GROUP_OPTIONS = Array.from({ length: 7 }, (_, index) => index + 1);
